@@ -89,7 +89,7 @@ namespace experimental
  *
  * This class is neither CopyConstructable nor CopyAssignable.
  */
-class IntraProcessManager
+class RCLCPP_PUBLIC IntraProcessManager
 {
 private:
   RCLCPP_DISABLE_COPY(IntraProcessManager)

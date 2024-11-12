@@ -33,7 +33,7 @@ namespace rclcpp
 namespace experimental
 {
 
-class SubscriptionIntraProcessBase : public rclcpp::Waitable
+class RCLCPP_PUBLIC SubscriptionIntraProcessBase : public rclcpp::Waitable
 {
 public:
   RCLCPP_SMART_PTR_ALIASES_ONLY(SubscriptionIntraProcessBase)

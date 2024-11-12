@@ -24,7 +24,7 @@ namespace rclcpp
 {
 
 /// Object oriented version of rcl_serialized_message_t with destructor to avoid memory leaks
-class RCLCPP_PUBLIC_TYPE SerializedMessage
+class RCLCPP_PUBLIC SerializedMessage
 {
 public:
   /// Default constructor for a SerializedMessage

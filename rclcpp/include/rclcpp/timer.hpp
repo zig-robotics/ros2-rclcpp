@@ -50,7 +50,7 @@ struct TimerInfo
   Time actual_call_time;
 };
 
-class TimerBase
+class RCLCPP_PUBLIC TimerBase
 {
 public:
   RCLCPP_SMART_PTR_DEFINITIONS_NOT_COPYABLE(TimerBase)

@@ -57,7 +57,7 @@ namespace experimental
 class IntraProcessManager;
 }  // namespace experimental
 
-class PublisherBase : public std::enable_shared_from_this<PublisherBase>
+class RCLCPP_PUBLIC PublisherBase : public std::enable_shared_from_this<PublisherBase>
 {
   friend ::rclcpp::node_interfaces::NodeTopicsInterface;
 
